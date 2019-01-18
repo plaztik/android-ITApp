@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@drawable/ic_plainbackground_normal">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_printers"
+            android:icon="@drawable/ic_hours"
+            android:title="Printers" />
+        <item
+            android:id="@+id/nav_compreq"
+            android:icon="@drawable/ic_compspecs"
+            android:title="Computer Specs" />
+        <item
+            android:id="@+id/nav_lab"
+            android:icon="@drawable/ic_labs"
+            android:title="Lab Information" />
+        <item
+            android:id="@+id/nav_labtopCheckout"
+            android:icon="@drawable/ic_compspecs"
+            android:title="Labtop Checkout" />
+    </group>
+
+    <item android:title="Contact Us">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_chat"
+                android:title="Chat" />
+            <item
+                android:id="@+id/nav_ticket"
+                android:icon="@drawable/ic_email"
+                android:title="Make A Ticket" />
+        </group>
+    </item>
+
+</menu>

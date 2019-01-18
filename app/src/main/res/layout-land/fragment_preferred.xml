@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preferred">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:layout_gravity="center_vertical">
+        <TableRow android:padding="@dimen/table_padding_land">
+            <TextView
+                android:id="@+id/pref_cpu_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/table_text_size"
+                android:textColor="@color/osuLOrng"
+                android:text="@string/cs_pref_cpu_title" />
+            <TextView
+                android:id="@+id/pref_cpu_specs"
+                android:textSize="@dimen/table_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_cpu_specs" />
+        </TableRow>
+        <TableRow android:padding="@dimen/table_padding_land">
+            <TextView
+                android:id="@+id/pref_ram_title"
+                android:textSize="@dimen/table_text_size"
+                android:textColor="@color/osuLOrng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_required_ram_title" />
+            <TextView
+                android:id="@+id/pref_ram_specs"
+                android:textSize="@dimen/table_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_ram_specs" />
+        </TableRow>
+        <TableRow android:padding="@dimen/table_padding_land">
+            <TextView
+                android:id="@+id/pref_drive_title"
+                android:textSize="@dimen/table_text_size"
+                android:textColor="@color/osuLOrng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_drive_title" />
+            <TextView
+                android:id="@+id/pref_drive_specs"
+                android:textSize="@dimen/table_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_drive_specs" />
+        </TableRow>
+        <TableRow android:padding="@dimen/table_padding_land">
+            <TextView
+                android:id="@+id/pref_screen_title"
+                android:textSize="@dimen/table_text_size"
+                android:textColor="@color/osuLOrng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_screen_title" />
+            <TextView
+                android:id="@+id/pref_screen_specs"
+                android:textSize="@dimen/table_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_screen_specs" />
+        </TableRow>
+        <TableRow android:padding="@dimen/table_padding_land">
+            <TextView
+                android:id="@+id/pref_graphics_title"
+                android:textSize="@dimen/table_text_size"
+                android:textColor="@color/osuLOrng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_graphics_title" />
+            <TextView
+                android:id="@+id/pref_graphics_specs"
+                android:textSize="@dimen/table_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_graphics_specs" />
+        </TableRow>
+        <TableRow android:padding="@dimen/table_padding_land">
+            <TextView
+                android:id="@+id/pref_network_title"
+                android:textSize="@dimen/table_text_size"
+                android:textColor="@color/osuLOrng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_network_title" />
+            <TextView
+                android:id="@+id/pref_network_specs"
+                android:textSize="@dimen/table_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_network_specs" />
+        </TableRow>
+        <TableRow android:padding="@dimen/table_padding_land">
+            <TextView
+                android:id="@+id/pref_os_title"
+                android:textSize="@dimen/table_text_size"
+                android:textColor="@color/osuLOrng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_os_title" />
+            <TextView
+                android:id="@+id/pref_os_specs"
+                android:textSize="@dimen/table_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cs_pref_os_specs" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/os_note"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="20dp"
+        android:padding="@dimen/table_padding"
+        android:text="@string/cs_note"
+        android:textSize="18sp"/>
+</FrameLayout >

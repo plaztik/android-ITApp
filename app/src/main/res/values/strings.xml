@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">CEAT Information Technology</string>
+    <string name="title_activity_printers">Adding A Printer</string>
+    <string name="title_activity_computer_specs">Computer Specs</string>
+    <string name="title_activity_laptop_checkout">Laptop Checkout</string>
+    <string name="title_activity_live_chat">Chat With Us</string>
+
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_subtitle">-Please select an option below</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- Printers -->
+    <string name="tab_printers_howto">How to add</string>
+    <string name="tab_printers_address">Address</string>
+    <string name="printers_mac_title"></string>
+    <string name="printers_windows_title"></string>
+    <string name="printers_mac_body"></string>
+    <string name="printers_windows_body"></string>
+
+    <!--Computer Specs -->
+
+    <string name="tab_compspecs_preferred">Preferred</string>
+    <string name="tab_compspecs_required">Required</string>
+    <string name="cs_note">Windows is required for MOST applications used within CEAT.\n\nIt is recommended that you verify the video card is certified to work with AutoCAD and SolidWorks.</string>
+
+    <!--Required -->
+    <string name="cs_required_cpu_title">CPU:</string>
+    <string name="cs_required_cpu_specs">Intel i5</string>
+    <string name="cs_required_ram_title">RAM:</string>
+    <string name="cs_required_ram_specs">16Gb</string>
+    <string name="cs_required_drive_title">Storage:</string>
+    <string name="cs_required_drive_specs">500Gb HDD/256Gb SSD</string>
+    <string name="cs_required_screen_title">Screen:</string>
+    <string name="cs_required_screen_specs">14in or larger</string>
+    <string name="cs_required_graphics_title">Graphics:</string>
+    <string name="cs_required_graphics_specs">2Gb VRAM</string>
+    <string name="cs_required_network_title">Network:</string>
+    <string name="cs_required_network_specs">Wireless(802.11b/g/n, ac/n)</string>
+    <string name="cs_required_os_title">OS:</string>
+    <string name="cs_required_os_specs">Windows 7/8 x64 bit</string>
+
+    <!--Preferred -->
+    <string name="cs_pref_cpu_title">CPU:</string>
+    <string name="cs_pref_cpu_specs">Intel i7</string>
+    <string name="cs_pref_ram_title">RAM:</string>
+    <string name="cs_pref_ram_specs">32Gb</string>
+    <string name="cs_pref_drive_title">Storage:</string>
+    <string name="cs_pref_drive_specs">1Tb HDD/512Gb SSD</string>
+    <string name="cs_pref_screen_title">Screen:</string>
+    <string name="cs_pref_screen_specs">15in or larger</string>
+    <string name="cs_pref_graphics_title">Graphics:</string>
+    <string name="cs_pref_graphics_specs">4Gb VRAM</string>
+    <string name="cs_pref_network_title">Network:</string>
+    <string name="cs_pref_network_specs">Wireless(802.11b/g/n, ac/n)</string>
+    <string name="cs_pref_os_title">OS:</string>
+    <string name="cs_pref_os_specs">Windows 10 x64 bit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lab_information">LabInformation</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>

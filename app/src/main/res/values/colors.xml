@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6600</color>
+    <color name="colorPrimaryDark">#ff6600</color>
+    <color name="colorAccent">#ff6600</color>
+    <color name="osuGr">#333333</color>
+    <color name="osuGrTrans">#B3333333</color>
+    <color name="osuLOrng">#ff9900</color>
+    <color name="osuDOrng">#ff6600</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="soft_white">#e7e6e6</color>
+    <color name="soft_white_blue">#ddddeb</color>
+
+
+</resources>
