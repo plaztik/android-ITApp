@@ -5,7 +5,7 @@
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_full_light"
+    android:background="@drawable/background_circuit"
     tools:context=".LiveChat">
 
     <WebView

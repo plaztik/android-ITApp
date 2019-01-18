@@ -31,7 +31,6 @@ public class BaseActivity extends AppCompatActivity {
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
-
             /*Main Nav menu*/
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {

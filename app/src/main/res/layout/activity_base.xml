@@ -41,8 +41,10 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        app:itemIconTint="@color/soft_white"
+        app:itemTextColor="@color/soft_white"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_dashboard_drawer"
-        android:background="@drawable/ic_plainbackground_normal"/>
+        android:background="@color/osuGrTrans"/>
 
 </android.support.v4.widget.DrawerLayout>
