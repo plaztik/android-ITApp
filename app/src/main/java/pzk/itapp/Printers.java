@@ -28,9 +28,9 @@ public class Printers extends BaseActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FrameLayout contentFrameLayout = (FrameLayout) findViewById(R.id.content_frame);
+        FrameLayout contentFrameLayout = findViewById(R.id.content_frame);
         getLayoutInflater().inflate(R.layout.activity_printers, contentFrameLayout);
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.getMenu().getItem(1).setChecked(true);
 
         //setContentView(R.layout.activity_printers);
@@ -43,10 +43,10 @@ public class Printers extends BaseActivity{
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(R.id.container);
+        mViewPager = findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        TabLayout tabLayout = findViewById(R.id.tabs);
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));

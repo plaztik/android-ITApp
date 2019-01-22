@@ -13,12 +13,12 @@ public class LiveChat extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FrameLayout contentFrameLayout = (FrameLayout) findViewById(R.id.content_frame);
+        FrameLayout contentFrameLayout = findViewById(R.id.content_frame);
         getLayoutInflater().inflate(R.layout.activity_live_chat, contentFrameLayout);
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.getMenu().getItem(5).setChecked(true);
 
-        webview = (WebView)findViewById(R.id.webView_liveChat);
+        webview = findViewById(R.id.webView_liveChat);
 
         webview.setWebViewClient(new WebViewClient());
         webview.getSettings().setJavaScriptEnabled(true);
