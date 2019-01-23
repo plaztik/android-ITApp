@@ -14,6 +14,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_corner"
         android:elevation="20dp"
+        android:fontFamily="@font/fabrica"
         android:layout_marginTop="@dimen/top_margin"
         android:stretchColumns="*">
 
@@ -23,14 +24,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textAlignment="textEnd"
                 android:textColor="@color/osuLOrng"
                 android:text="@string/cs_required_cpu_title" />
             <TextView
                 android:id="@+id/required_cpu_specs"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/soft_white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -40,7 +39,6 @@
             <TextView
                 android:id="@+id/required_ram_title"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textAlignment="textEnd"
                 android:textColor="@color/osuLOrng"
                 android:layout_width="match_parent"
@@ -49,7 +47,6 @@
             <TextView
                 android:id="@+id/required_ram_specs"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/soft_white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -59,7 +56,6 @@
             <TextView
                 android:id="@+id/required_drive_title"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textAlignment="textEnd"
                 android:textColor="@color/osuLOrng"
                 android:layout_width="match_parent"
@@ -68,7 +64,6 @@
             <TextView
                 android:id="@+id/required_drive_specs"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/soft_white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -78,7 +73,6 @@
             <TextView
                 android:id="@+id/required_screen_title"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textAlignment="textEnd"
                 android:textColor="@color/osuLOrng"
                 android:layout_width="match_parent"
@@ -87,7 +81,6 @@
             <TextView
                 android:id="@+id/required_screen_specs"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/soft_white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -97,7 +90,6 @@
             <TextView
                 android:id="@+id/required_graphics_title"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textAlignment="textEnd"
                 android:textColor="@color/osuLOrng"
                 android:layout_width="match_parent"
@@ -106,7 +98,6 @@
             <TextView
                 android:id="@+id/required_graphics_specs"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/soft_white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -116,7 +107,6 @@
             <TextView
                 android:id="@+id/required_network_title"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textAlignment="textEnd"
                 android:textColor="@color/osuLOrng"
                 android:layout_width="match_parent"
@@ -125,7 +115,6 @@
             <TextView
                 android:id="@+id/required_network_specs"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/soft_white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -136,7 +125,6 @@
                 android:id="@+id/required_os_title"
                 android:textSize="@dimen/table_text_size"
                 android:textAlignment="textEnd"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/osuLOrng"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -144,7 +132,6 @@
             <TextView
                 android:id="@+id/required_os_specs"
                 android:textSize="@dimen/table_text_size"
-                android:fontFamily="@font/Fabrica"
                 android:textColor="@color/soft_white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -163,7 +150,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/bottom_margin"
         android:elevation="20dp"
-        android:fontFamily="@font/Fabrica"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_gravity="bottom"

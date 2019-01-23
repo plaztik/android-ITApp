@@ -16,6 +16,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/ic_chat"
+        android:clickable="true"
         android:contentDescription="chat button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,6 +34,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/ic_compspecs"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:tintMode="add"
         android:contentDescription="icon for computer specs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,98 +45,72 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.289" />
 
-    <TextView
-        android:id="@+id/locationhrs_ENTitle"
-        android:layout_width="259dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/Fabrica"
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/top_margin"
         android:background="@drawable/rounded_corner"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:shadowColor="@color/colorAccent"
-        android:shadowRadius="2"
-        android:text="018 Engineering North"
-        android:textColor="@color/osuGr"
-        android:textSize="10pt"
-        android:typeface="serif"
-        android:visibility="visible"
+        android:elevation="20dp"
+        android:stretchColumns="*"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518" />
+        app:layout_constraintVertical_bias="0.742">
 
-    <TextView
-        android:id="@+id/locationhrs_ENBody"
-        android:layout_width="291dp"
-        android:fontFamily="@font/Fabrica"
-        android:background="@drawable/rounded_corner"
-        android:layout_height="44dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:shadowColor="@color/colorAccent"
-        android:shadowRadius="2"
-        android:text="Mon. - Fri. 8:00 am - 5:00pm\nNoon - 1 pm, closed for lunch"
-        android:textColor="@color/osuGr"
-        android:textSize="8pt"
-        android:typeface="serif"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.682"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602" />
+        <TableRow android:padding="@dimen/table_padding">
 
-    <TextView
-        android:id="@+id/locationhrs_ATRCTitle"
-        android:layout_width="367dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:shadowColor="@color/colorAccent"
-        android:shadowRadius="2"
-        android:text="Student Excellence Center - ATRC"
-        android:textColor="@color/osuGr"
-        android:textSize="10pt"
-        android:typeface="serif"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.714"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
+            <TextView
+                android:id="@+id/locationhrs_ENTitle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="018 Engineering North"
+                android:textAlignment="center"
+                android:textColor="@color/soft_white"
+                android:textSize="10pt" />
+        </TableRow>
 
-    <TextView
-        android:id="@+id/locationhrs_ATRCBody"
-        android:layout_width="206dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:shadowColor="@color/colorAccent"
-        android:shadowRadius="2"
-        android:text="Mon. - Thur., 8 am - 9 pm
-\nFri., 8am - 5pm
-\nSun., 5 pm - 9 pm"
-        android:textColor="@color/osuGr"
-        android:textSize="8pt"
-        android:typeface="serif"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882" />
+        <TableRow android:padding="@dimen/table_padding">
+
+            <TextView
+                android:id="@+id/locationhrs_ENBody"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="Mon. - Fri. 8:00 am - 5:00pm\nNoon - 1 pm, closed for lunch"
+                android:textAlignment="center"
+                android:textColor="@color/soft_white"
+                android:textSize="8pt" />
+        </TableRow>
+
+        <TableRow android:padding="@dimen/table_padding">
+
+            <TextView
+                android:id="@+id/locationhrs_ATRCTitle"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Student Excellence Center - ATRC"
+                android:textAlignment="center"
+                android:textColor="@color/soft_white"
+                android:textSize="10pt" />
+        </TableRow>
+
+        <TableRow android:padding="@dimen/table_padding">
+
+            <TextView
+                android:id="@+id/locationhrs_ATRCBody"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="Mon. - Thur., 8 am - 9 pm
+\nFri., 8am - 5pm Sun., 5 pm - 9 pm"
+                android:textAlignment="center"
+                android:textColor="@color/soft_white"
+                android:textSize="8pt" />
+        </TableRow>
+
+    </TableLayout>
+
 
 </android.support.constraint.ConstraintLayout>

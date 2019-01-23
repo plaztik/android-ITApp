@@ -9,8 +9,8 @@
     tools:context=".LiveChat">
 
     <WebView
+        android:id="@+id/webView_liveChat"
+        android:layout_marginTop="@dimen/topmargin_lc"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/webView_liveChat">
-    </WebView>
+        android:layout_height="500dp"></WebView>
 </android.support.design.widget.CoordinatorLayout>

@@ -2,9 +2,9 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="#B3333333" />
     <!--border color and border width-->
-    <stroke
+    <!--<stroke
         android:width="3dp"
-        android:color="#ff9900" />
+        android:color="#ff9900" />-->
     <!--border radius in dp-->
     <corners android:radius="30dp" />
 </shape>
