@@ -24,6 +24,6 @@ public class LaptopCheckout extends BaseActivity {
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
         webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
-        webview.loadUrl("https://ceat.okstate.edu/itservices/laptop-checkout.html");
+        webview.loadUrl("https://okstate.forms-db.com/view.php?id=292942");
     }
 }
