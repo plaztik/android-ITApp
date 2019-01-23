@@ -18,4 +18,5 @@
 
     <!--Floating Table Margins -->
     <dimen name="top_margin">30dp</dimen>
+    <dimen name="bottom_margin">200dp</dimen>
 </resources>
